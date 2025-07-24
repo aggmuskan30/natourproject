@@ -1,10 +1,13 @@
 @import "base/animation";
 @import "abstracts/variables";
 @import "base/typography";
-@import "abbstracts/mixins";
+@import "abstracts/mixin";
 @import "base/utilities";
-@import "components/button";
+@import "component/button";
 @import "layout/header";
 @import "pages/home";
-@import "abstarcts/function";
+@import "abstracts/function";
 @import "layout/grid";
+@import "base/base";
+@import "component/composition";
+@import "component/feature-box";
