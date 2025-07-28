@@ -5,7 +5,7 @@
         box-shadow: 0 1.5rem 4rem  rgba(23, 4, 4, 0.4);
         outline-offset:2rem;
         position:absolute;
-        transition: all 0.2s;
+        transition: all 0.2s ease;
         
         z-index:10;
         &--p1{
