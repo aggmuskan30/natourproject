@@ -34,8 +34,8 @@ body {
 
 .heading-secondary {
     text-transform: uppercase;
-    font-size: 3rem;
-    font-weight: 600;
+    font-size: 3.5rem;
+    font-weight: 650;
     background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
     display: inline-block;
     -webkit-background-clip: text;
@@ -49,7 +49,7 @@ body {
 }
 .heading-tertiary{
     font-size: $default-font-size;
-    font-weight:600;
+    font-weight:700;
     text-transform:uppercase;
 }
 .paragraph{

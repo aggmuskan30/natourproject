@@ -1,5 +1,6 @@
 
 .btn {
+    &,
     &:link,
     &:visited {
         text-decoration: none;
@@ -11,6 +12,9 @@
         position: relative;
         font-size: 2.5rem;
         font-weight: 450;
+        border:none;
+        cursor:pointer;
+        
 
     }
 
@@ -24,9 +28,11 @@
         }
     }
 
-    &:active {
+    &:active ,
+    &:focus{
         transform: translateY(-.1rem);
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.3);
+        outline:none;
     }
 
     &--animated {
