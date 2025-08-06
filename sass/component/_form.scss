@@ -45,8 +45,8 @@
         transform:translateY(-4rem);
     }
     &__radio-group{
-        width:49%;
-        display:float;
+        width:90%;
+        display:inline-block;
       
       
     }
@@ -54,10 +54,11 @@
         display:none;
     }
     &__radio-label{
-        font-size:1.5rem;   
+        font-size:1.7rem;   
         cursor:pointer;
         position:relative;
         padding-left:3rem;
+        margin-right: 3rem; 
 
     }
     &__radio-button{
