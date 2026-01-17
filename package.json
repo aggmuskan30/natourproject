@@ -1,28 +1,29 @@
 {
-  "name": "natours",
-  "version": "1.0.0",
-  "description": "landing page of natours",
-  "main": "index.js",
+  "name": "temp-app",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "compile:sass": "sass sass/main.scss css/style.css --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aggmuskan30/natourproject.git"
-  },
-  "keywords": [
-    "["
-  ],
-  "author": "ure\",",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aggmuskan30/natourproject/issues"
-  },
-  "homepage": "https://github.com/aggmuskan30/natourproject#readme",
-  "devDependencies": {
-    "sass": "^1.89.2"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
   },
   "dependencies": {
-    "jquery": "^3.7.1"
+    "@google/generative-ai": "^0.24.1",
+    "mongoose": "^9.1.4",
+    "next": "16.1.1",
+    "next-auth": "^4.24.13",
+    "openai": "^6.16.0",
+    "razorpay": "^2.9.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.1",
+    "typescript": "^5"
   }
 }
