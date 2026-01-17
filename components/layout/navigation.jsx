@@ -24,8 +24,8 @@ const Navigation = () => {
     { label: "About Natours", link: "#header" },       
     { label: "AI Customized Trip", link: "#section-about" }, 
     { label: "Your Benefits", link: "#section-features" },   
-    { label: "Popular Tours", link: "#section-tours" },      
-    { label: "Feedback", link: "#section-stories" }          
+    { label: "Popular Tours", link: "#section-tour" },      
+    { label: "Feedback", link: "#feedback" }          
   ];
 
   return (

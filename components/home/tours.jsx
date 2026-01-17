@@ -45,7 +45,7 @@ const Tours = () => {
   ];
 
   return (
-    // FIX 1: Changed "section-tours" to "section-tour" to match your CSS
+    
     <section className="section-tour" id="section-tour">
       
       <div className="u-center-text u-margin-bottom-big">
@@ -99,7 +99,7 @@ const Tours = () => {
                 </div>
               </div>
 
-              {/* BACK SIDE */}
+            
               <div 
                  className="card__side card__side--back"
                  style={{
@@ -133,9 +133,8 @@ const Tours = () => {
         trip={selectedTour} 
       />
       
-      {/* FIX 2: Reverted to "u-margin-top-big" to fix button spacing */}
       <div className="u-center-text u-margin-top-big">
-        <a href="#" className="btn btn--green">DISCOVER ALL TOURS</a>
+        <a href="#section-about" className="btn btn--green">DISCOVER ALL TOURS</a>
       </div>
     </section>
   );

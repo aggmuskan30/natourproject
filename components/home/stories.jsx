@@ -4,7 +4,7 @@ const Stories = () => {
   return (
     <section className="section-story" id="feedback">
       <div className="bg-video">
-        {/* React uses camelCase for autoPlay */}
+
         <video className="bg-video__content" autoPlay loop muted>
           <source src="/img/video.mp4" type="video/mp4" />
           <source src="/img/video.webm" type="video/webm" />
@@ -20,14 +20,13 @@ const Stories = () => {
         <div className="story">
           <figure className="story__shape">
             <img className="story__img" src="/img/nat-8.jpg" alt="person on a tour" />
-            <figcaption className="story__figcaption">Mary Smith</figcaption>
+            <figcaption className="story__figcaption">Muskan Aggarwal</figcaption>
           </figure>
           <div className="story__text">
             <h3 className="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur quibusdam commodi
-              repudiandae voluptas non iste facilis, aliquid consequuntur ab quod quae alias saepe nulla
-              earum incidunt reiciendis! Sed?
+               Had a great time with my family in Kerala all possible because of Natours .Quiet mornings, open skies, and moments that reminded us what togetherness really feels like. 
+               This was not just a trip ,it was a memory we will carry for life.
             </p>
           </div>
         </div>
@@ -37,14 +36,14 @@ const Stories = () => {
         <div className="story">
           <figure className="story__shape">
             <img className="story__img" src="/img/nat-9.jpg" alt="person on a tour" />
-            <figcaption className="story__figcaption">Jack Wilson</figcaption>
+            <figcaption className="story__figcaption">Shubham</figcaption>
           </figure>
           <div className="story__text">
             <h3 className="heading-tertiary u-margin-bottom-small">WOW! my life is completely different now</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur quibusdam commodi
-              repudiandae voluptas non iste facilis, aliquid consequuntur ab quod quae alias saepe nulla
-              earum incidunt reiciendis! Sed?
+              I went looking for a break and came back with clarity. Walking alone through mountains and sunsets helped me slow down,
+               breathe, and rediscover myself. Sometimes, 
+              all it takes is one journey to change how you see everything.
             </p>
           </div>
         </div>

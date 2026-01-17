@@ -13,10 +13,9 @@ const Header = ({ onOpenAuth }) => {
             <p className="heading-primary--sub">is where life happens</p>
           </h1>
           
-         
-          <button onClick={onOpenAuth} className="btn btn--white btn--animated">
-           Discover Our Tours
-          </button>
+         <a href="#section-tour" className="btn btn--white btn--animated">
+             Discover Our Tours
+          </a>
        </div>
     </header>
   );
