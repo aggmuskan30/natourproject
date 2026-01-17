@@ -11,7 +11,7 @@ export async function POST(req) {
     const { amount, currency } = await req.json();
 
     const options = {
-      amount: amount * 100, // Razorpay takes amount in paise (100 INR = 10000 paise)
+      amount: amount * 100, 
       currency: currency || "INR",
       receipt: "receipt_" + Math.random().toString(36).substring(7),
     };
